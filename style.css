@@ -1,3 +1,179 @@
-/***************************
-        VOTRE CSS
-****************************/
+/*
+TESTER
+- LINE HEIGHT (en px) ideql pour centrer ou ajuster
+- SATURARION
+- utiliser vh et vw en pourcentage vh = 1% hauteur firefox et vw = 1% largeur firefox
+(pour les proportions d images)
+*/
+@font-face {
+  font-family: "Helvetic";
+  src: url("fonts/HelveticaNeueLTStd Lt.otf");
+}
+
+@font-face {
+  font-family: "andalemo";
+  src: url("fonts/andalemo.ttf");
+}
+
+main {
+  border: solid;
+  width: 90%;
+}
+
+nav {
+float: right;
+color: white;
+}
+
+
+li {
+  display: inline;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+h4 {
+  color: grey;
+}
+header {
+  background-image: url(./img/image-499666622.jpg);
+  font-family: helvetic;
+  color: white;
+  }
+
+.street {
+  display: flex;
+  /*line-height: 30px;*/
+  padding-top: 0px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 0px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main{
+  display: flex;
+}
+/*#fname {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+}*/
+
+
+
+#section2{
+  display: flex;
+}
+.bouton1 {
+background-color: orange;
+color: white;
+}
+
+.bouton2 {
+  background-color: orange;
+}
+
+.section1 {
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+}
+
+
+.finefeatures {
+  text-align: left;
+}
+
+.t1, .t2, .t3, .t4 {
+  margin-left: 100px;
+  text-align: left;
+}
+
+.section4 {
+display: flex;
+padding-top: 100px;
+padding-left: 100px;
+padding-right: 100px;
+padding-bottom: 100px;
+}
+
+.section5 {
+  background-image: url(img/image-195625538.jpg);
+  opacity: 50;
+  height: 400px;
+  color: white;
+
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 50px;
+}
+.icones1 {
+display: flex;
+flex-direction: row;
+}
+
+.icones2 {
+display: flex;
+flex-direction: row;
+}
+
+.agrandir {
+
+}
+
+.blocdimages1{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.blocdimages2{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+#honestly {
+  text-align: left;
+  text-transform: lowercase;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+}
+
+.section3 {
+background-color: orange;
+font-family: helvetic;
+color: white;
+text-align: left;
+font-family: "helvetic";
+}
+
+.section6 {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+}
+
+
+.container, .meth {
+  width: 50%;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-bottom: 100px;
+  text-align: left;
+}
